@@ -1,0 +1,20 @@
+1. Write a client-server chat socket program using TCP protocol to chat 
+in infinite loop until client ends the chat session.
+
+2. Write a client-server socket program using TCP. Client accepts an IP 
+address and sends to server. Server receives IP address and displays it. 
+Server process the IP address to identify the class of IP address (A, B, C, D, E). 
+Server sends class and default mask to the client via socket. Client displays the result. 
+
+3. Write a client-server socket program using TCP. Assume that Server has pre-stored 
+information about five Account number, PIN and Balance. Client accepts account number, 
+pin and withdrawal amount and sends to Server If account holder is valid then performs 
+withdrawal operations provided enough balance is available otherwise display invalid Accno/PIN 
+or No enough Balance. Assume that account can maintain 1000 balance.
+
+4. Write a client-server socket program using TCP. Client accepts 
+and sends coefficients (a, b, c) of a quadratic equation to server. 
+Server calculates roots of quadratic equation and return roots to client. 
+Client displays the roots of quadratic equation. Consider all possibilities of a,b,c values.
+
+ 

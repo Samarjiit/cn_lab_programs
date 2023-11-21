@@ -1,0 +1,30 @@
+FIFO(Named Pipe)
+1. Write client-server program using named pipes. Client accepts a string 
+and passes to Server through a named pipe and server checks the string for 
+palindrome and returns a message - YES or NO to Client.
+
+2. Write client-server program using named pipes. Client accepts Username, password 
+from user and passes them to server for authentication. Server has pre-stored username 
+and passwords and it compares username and passwords and returns message -Welcome <username> or Login Access denied.
+
+3.Write client-server program using named pipes. Client accepts Deposit amount and tenure (in years) 
+and passes to server. Server has pre-stored information about different interest rates for different tenures. 
+Accordingly, server applies appropriate interest rate and returns maturity amount and interest earned back to client.
+0-12 months 5% 
+13-24 months 6%
+25-36 months 7%
+>36 months 8%
+
+4.Write client-server program using named pipes. Client accepts - electricity customer number and number of units consumed.
+Server calculates the bill by applying different rate for different slabs of units consumed.
+0- 50 units @ 1/- per unit.
+51-100 units @1.5/- per unit.
+101-200 units @ 2/- per unit.
+>200 units @ 3/- per unit
+
+5. Write client-server program using named pipes. Client accepts - passenger name, source, 
+destination and number of seats and sends
+to server. Assume that server has pre-stored information about - Source, Destination, 
+ticket_rate and number of seats available. On receival of information from client, server checks 
+for availability of seats. If available, accordingly decrement seats and sends bill amount to client, 
+otherwise display message to client that -Seats not available

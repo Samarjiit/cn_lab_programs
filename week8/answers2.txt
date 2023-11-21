@@ -1,0 +1,170 @@
+ronson@ronson-VirtualBox:~/Documents/Cn Programs/week8$ gcc 3.ip_client.c -o client1
+ronson@ronson-VirtualBox:~/Documents/Cn Programs/week8$ gcc 3.ip_client.c -o client2
+ronson@ronson-VirtualBox:~/Documents/Cn Programs/week8$ gcc 3.ip_server.c -o server 
+ronson@ronson-VirtualBox:~/Documents/Cn Programs/week8$ ./server 
+Listening at port 12000
+Client 1 connected
+Client 2 connected
+Received from client 1
+8.8.8.8
+?
+Calculated class:Class A Mask:255.0.0.0
+Ending the connection
+waitng for next connection
+Received from client 2
+245.89.76.5
+
+Calculated class:Class E 
+Ending the connection
+waitng for next connection
+
+ronson@ronson-VirtualBox:~/Documents/Cn Programs/week8$ ./client1
+Enter the ip address:8.8.8.8
+Server found class: Class A Mask:255.0.0.0
+session ended
+
+
+ronson@ronson-VirtualBox:~/Documents/Cn Programs/week8$ ./client2
+Enter the ip address:245.89.76.5
+Server found class: Class E 
+session ended
+
+
+
+
+ronson@ronson-VirtualBox:~/Documents/Cn Programs/week8$ gcc 4.account_client.c -o client1
+ronson@ronson-VirtualBox:~/Documents/Cn Programs/week8$ gcc 4.account_client.c -o client2
+ronson@ronson-VirtualBox:~/Documents/Cn Programs/week8$ gcc 4.account_server.c -o server
+ronson@ronson-VirtualBox:~/Documents/Cn Programs/week8$ ./server 
+Listening at port 12000
+Client 1 connected
+Client 2 connected
+Received from client 1
+Account no: 1003
+Pin: 1236
+Withdrawal amount: 3500
+waitng for next connection
+Received from client 2
+Account no: 1005
+Pin: 1238
+Withdrawal amount: 200
+waitng for next connection
+
+
+
+ronson@ronson-VirtualBox:~/Documents/Cn Programs/week8$ ./client1
+Enter account no:1003
+Enter 4-digit pin: 1236
+Enter withdrawal amount:3500
+Withdrawn amount: 3500
+Balace amount is: 2100
+
+
+ronson@ronson-VirtualBox:~/Documents/Cn Programs/week8$ ./client2
+Enter account no:1005
+Enter 4-digit pin: 1238
+Enter withdrawal amount:200
+Withdrawn amount: 200
+Balace amount is: 1800
+
+
+
+
+
+ronson@ronson-VirtualBox:~/Documents/Cn Programs/week8$ gcc 5.quard_client.c -o client1
+ronson@ronson-VirtualBox:~/Documents/Cn Programs/week8$ gcc 5.quard_client.c -o client2
+ronson@ronson-VirtualBox:~/Documents/Cn Programs/week8$ gcc 5.quard_server.c -o server -lm
+ronson@ronson-VirtualBox:~/Documents/Cn Programs/week8$ ./server 
+Server is listening...
+Client 1 connected
+Client 2 connected
+Received from client 1
+a= 2.00
+b= -1.00
+c= -6.00
+Root 1: 2.00
+Root 2: -1.50
+Roots sent to clinet
+waitng for next connection
+Received from client 2
+a= 2.00
+b= -1.00
+c= -1.00
+Root 1: 1.00
+Root 2: -0.50
+Roots sent to clinet
+waitng for next connection
+
+
+
+ronson@ronson-VirtualBox:~/Documents/Cn Programs/week8$ ./client1
+Sample equation ax2 + bx + c
+Enter a: 2
+Enter b: -1
+Enter c: -6
+Root 1: 2.00
+Root 2: -1.50
+
+
+
+ronson@ronson-VirtualBox:~/Documents/Cn Programs/week8$ ./client2
+Sample equation ax2 + bx + c
+Enter a: 2
+Enter b: -1
+Enter c: -1
+Root 1: 1.00
+Root 2: -0.50
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+waitng for next connection
+

@@ -1,0 +1,99 @@
+ronson@ronson-VirtualBox:~/Documents/Cn Programs/week8$ gcc 1.chat_client.c -o client1
+ronson@ronson-VirtualBox:~/Documents/Cn Programs/week8$ gcc 1.chat_client.c -o client2
+ronson@ronson-VirtualBox:~/Documents/Cn Programs/week8$ gcc 1.chat_server.c -o server
+ronson@ronson-VirtualBox:~/Documents/Cn Programs/week8$ ./client1
+Client: hello, good morining
+Server: hi, wish you the same
+Client: what are you doing
+Server: nothing
+Client: ok
+Server: ok
+Client: exit
+Chat ended
+
+
+ronson@ronson-VirtualBox:~/Documents/Cn Programs/week8$ ./client2
+Client: hi, how is the weather   
+Server: its sunny here
+Client: ok
+Server: anything
+Client: exit
+Chat ended
+
+
+
+ronson@ronson-VirtualBox:~/Documents/Cn Programs/week8$ ./server 
+Listening at port 12000
+Client 1 connected
+Client 2 connected
+Client 1: hello, good morining
+Server message to client 1: hi, wish you the same
+Client 2: hi, how is the weather
+Server message to client 2: its sunny here
+Client 2: ok
+Server message to client 2: anything
+Client 2: exit
+Chat ended
+Client 1: what are you doing
+Server message to client 1: nothing
+Client 1: ok
+Server message to client 1: ok
+Client 1: exit
+
+
+
+
+ronson@ronson-VirtualBox:~/Documents/Cn Programs/week8$ gcc 2.math_client.c -o client1
+ronson@ronson-VirtualBox:~/Documents/Cn Programs/week8$ gcc 2.math_client.c -o client2
+ronson@ronson-VirtualBox:~/Documents/Cn Programs/week8$ gcc 2.math_server.c -o server
+ronson@ronson-VirtualBox:~/Documents/Cn Programs/week8$ ./client1
+Enter the operands and operator
+Enter a: 5
+Enter b: 4
+Enter operator: *
+Answer from server: 20.00
+
+
+
+ronson@ronson-VirtualBox:~/Documents/Cn Programs/week8$ ./client2
+Enter the operands and operator
+Enter a: 
+9
+Enter b: 3
+Enter operator: /
+Answer from server: 3.00
+
+
+ronson@ronson-VirtualBox:~/Documents/Cn Programs/week8$ ./server 
+Listening at port 12000
+Client 1 connected
+Client 2 connected
+Received from client 1
+a= 5.00
+b= 4.00
+operator= *
+Server message to client 1: 20.00
+waitng for next connection
+Received from client 2
+a= 9.00
+b= 3.00
+operator= /
+Server message to client 2: 3.00
+waitng for next connection
+
+
+
+
+
+<pre><font color="#26A269"><b>ronson@ronson-VirtualBox</b></font>:<font color="#12488B"><b>~/Documents/Cn Programs/week8</b></font>$ ./client2
+Client: hi, how is the weather   
+Server: its sunny here
+Client: ok
+Server: anything
+Client: exit
+Chat ended
+</pre>
+
+
+Chat ended
+

@@ -1,0 +1,16 @@
+Shared Memory
+1. Write a client server program using shared memory to transmit data between server and client. 
+Client accepts a Matrix and transmits to Server. Server displays received Matrix and finds transpose 
+of the matrix. Transposed matrix is sent back to client and client displays the received transposed matrix.
+
+2. Write a client server program using shared memory to transmit data between server and client. 
+Client accepts an integer and transmits to Server. Server displays received integer and check the 
+number for Armstrong number. If the number is Armstrong number, server sends YES to client otherwise NO. 
+Client displays the received message.
+
+
+3. Write a client server program using shared memory to transmit data between server and client. 
+Client accepts State/Capital City and transmits to Server. Server displays received data (as state/capital city) 
+and finds the capital or state depending what data received. Assume that Server has 2-D database which stores at 
+least for 5 states and corresponding capital city. If corresponding city/state is found retur the found information 
+or NO MATCH FOUND to the client. Client displays the received information.

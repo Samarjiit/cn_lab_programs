@@ -1,0 +1,19 @@
+1. Write a client-server chat socket program using UDP protocol to chat in infinite loop 
+until client ends the chat session.
+
+2. Write a client-server socket program using UDP. Client accepts an IP address and sends to server. 
+Server receives IP address and displays it. Server process the IP address to identify the class of IP 
+address (A, B, C, D, E). Server sends class and default mask to the client via socket. 
+Client displays the result. 
+
+3. Write a client-server socket program using UDP. Assume that Server has pre-stored 
+information about five Account number, PIN and Balance. Client accepts account number, 
+pin and withdrawal amount and sends to Server If account holder is valid then performs 
+withdrawal operations provided enough balance is available otherwise display invalid 
+Accno/PIN or No enough Balance. Assume that account can maintain 1000 balance.
+
+4. Write a client-server socket program using UDP. Client accepts and sends name 
+of a file to server. Server reads 10 characters at a time from the file and sends 
+to client. Client displays the data received and writes to another file.
+
+ 
